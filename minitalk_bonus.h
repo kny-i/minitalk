@@ -1,5 +1,5 @@
-#ifndef MINITALK_BOUNUS_H
-# define MINITALK_BOUNUS_H
+#ifndef MINITALK_BONUS_H
+# define MINITALK_BONUS_H
 
 # include <unistd.h>
 # include <stdlib.h>

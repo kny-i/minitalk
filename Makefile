@@ -22,11 +22,11 @@ client_bonus:	client_bonus.c utils.c
 
 all:			$(NAME)
 clean:
-				$(RM) server.o client.o utils.o utils_bonus.o client_bonus.o server_bonus.o
+				$(RM) server.o client.o utils.o utils_bonus.o client_bonus.o server_bonus.o 
 
 fclean:			clean
-				$(RM) server client client_bonus server_bonus
+				$(RM) server client minitalk client_bonus server_bonus
 
 re:				fclean all bonus
 
-.PHONY:			all clean fclean re
+.PHONY:			all clean fclean re 

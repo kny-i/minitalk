@@ -25,6 +25,7 @@ void	send_message(pid_t pid, char *word)
 			if (kill_confirm == -1)
 				put_error("kill error");
 			count_shift++;
+			usleep(150);
 		}
 		i++;
 	}
